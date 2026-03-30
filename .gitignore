@@ -1,0 +1,25 @@
+# Model checkpoints (too large for git)
+results/*/training/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Raw eval JSONs (available on HuggingFace)
+results/*/eval_*.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.conda/
+.venv/
+*.egg-info/
