@@ -81,7 +81,8 @@ All 432 evaluation files (5,616 data points) are available for download. To repr
 ```bash
 # Download pre-computed evaluation results
 pip install huggingface_hub
-huggingface-cli download usama10/grpo-tax-eval-data --repo-type dataset --local-dir results/
+huggingface-cli download anonymous/grpo-tax-eval-data --repo-type dataset --local-dir results/
+# Note: the actual dataset URL will be provided upon paper acceptance
 
 # Generate figures from downloaded data
 cd analysis
