@@ -11,6 +11,11 @@ import glob
 
 import torch
 from datasets import load_dataset
+# Make the repository root importable so 'benchmarks' resolves from any directory.
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
 from benchmarks.base import load_model_from_checkpoint
 
 
